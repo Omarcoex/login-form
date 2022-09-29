@@ -1,0 +1,85 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* Menu */
+nav a {
+  text-decoration: none;
+  color: inherit;
+  font-size: 14px;
+}
+nav li {
+  width: 200px;
+  padding: 5px 10px;
+  background-color: #000;
+  border: 1px solid #000;
+  text-align: center;
+  color: #fff;
+  list-style: none;
+}
+nav li:hover {
+  background-color: #fff;
+  color: #000;
+}
+nav ul {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 20px;
+}
+.contenedorNav {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  color: white;
+}
+/* Quienes somos */
+.titulo {
+  display: flex;
+  border: solid 3px;
+  grid: 25px;
+  justify-content: center;
+  /* margin-left: 450px; */
+}
+
+/* Imagen somos */
+.somos {
+  margin-top: 25px;
+  margin: 25px;
+}
+.somos img {
+  border-radius: 25px;
+}
+section .card{
+display: flex;
+justify-content: center;
+border: solid 1px;
+flex-direction: row;
+gap: 25px;
+
+}
+.card img {  
+  height: 150px;
+  width: 150px;
+ 
+}
+/* Se crea modal */
+.modal {
+  border: solid 2px;
+  background-color: palevioletred;
+  height: 870px;
+  top:-870px;
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modal_info {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  align-items: center;
+}
