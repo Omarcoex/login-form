@@ -3,15 +3,27 @@
   margin: 0;
   box-sizing: border-box;
 }
-/* Menu */
+body {
+  /* position: absolute; */
+  background-color: #89cff0;
+  color: black;
+  height: 100%;
+}
+/* Menu1 */
+.contenedorNav {
+  display: flex;
+  justify-content: left;
+  background-color: black;
+  color: white;
+  align-content: space-between;
+}
 nav a {
   text-decoration: none;
   color: inherit;
   font-size: 14px;
 }
 nav li {
-  width: 200px;
-  padding: 5px 10px;
+  padding: 5px;
   background-color: #000;
   border: 1px solid #000;
   text-align: center;
@@ -26,50 +38,98 @@ nav ul {
   display: flex;
   justify-content: start;
   align-items: center;
-  gap: 20px;
+  /* gap: 20px; */
 }
-.contenedorNav {
+.usuario {
   display: flex;
-  justify-content: space-between;
-  background-color: black;
+  align-items: center;
+  justify-content: right;
+  margin: -20px;
   color: white;
-}
-/* Quienes somos */
-.titulo {
-  display: flex;
-  border: solid 3px;
-  grid: 25px;
-  justify-content: center;
-  /* margin-left: 450px; */
+  margin-right: 4px;
 }
 
+/* Quienes somos */
+.contenedorTitulo {
+  margin-top: 25px;
+  display: flex;
+}
+.titulo {
+  /* display: flex;
+  border: solid 3px;
+  grid: 25px;
+  justify-content: center; */
+  /* margin-left: 450px; */
+}
+.titulo h1 {
+  margin-top: 25px;
+  font-size: 30px;
+  border-bottom: solid 2px #eee;
+}
+.titulo p {
+  margin-top: 15px;
+  text-align: justify;
+  font-size: 22px;
+  width: 852px;
+}
 /* Imagen somos */
-.somos {
+.somos img {
   margin-top: 25px;
   margin: 25px;
+  width: 650px;
+  min-height: auto;
+}
+.card {
+  /* display: flex;
+  overflow: hidden;
+  flex-direction: column;
+  position: absolute;
+  margin: 15px; */
 }
 .somos img {
   border-radius: 25px;
 }
-section .card{
-display: flex;
-justify-content: center;
-border: solid 1px;
-flex-direction: row;
-gap: 25px;
+section .img_card {
+  display: flex;
+  justify-content: center;
+  /* border: solid 1px; */
 
+  gap: 25px;
+  flex-wrap: wrap;
 }
-.card img {  
-  height: 150px;
+.img_card img {
+  height: 350px;
+  width: 350px;
+  border-radius: 10px;
+  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+}
+div .img_card img:hover {
+  transform: scale(1.2);
+}
+.listas {
+  margin-bottom: 25px;
+  text-align: center;
+}
+.listas select option {
   width: 150px;
- 
+  height: 50px;
+}
+.pedir {
+  /* padding-top: 15px; */
+}
+.producto {
+  text-align: center;
+  margin-bottom: 25px;
+  font-weight: bold;
+  font-size: 2rem;
+  border: solid 2px white;
 }
 /* Se crea modal */
 .modal {
   border: solid 2px;
-  background-color: palevioletred;
+  background-color: rgba(14, 13, 13, 0.742);
   height: 870px;
-  top:-870px;
+  top: -870px;
   position: absolute;
   width: 100%;
   display: flex;

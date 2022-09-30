@@ -1,0 +1,75 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.contenedor {
+  border: solid 1px;
+  height: 530px;
+  width: 340px;
+  margin: auto;
+  margin-top: 25px;
+  position: relative;
+}
+.titular {
+  /* border: solid 1px; */
+  height: 80px;
+  text-align: center;
+  background-color: #007fff;
+  padding-top: 25px;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+}
+.contenido {
+  /* border: solid 1px; */
+}
+figure {
+  text-align: center;
+}
+.contenido img {
+  margin-top: 12px;
+  width: 85px;
+  height: 85px;
+}
+.mensaje {
+  font-weight: bold;
+  text-align: center;
+}
+.contenido span {
+  padding: 8px;
+}
+.orden{
+    /* border: solid 1px; */
+    margin-top: 35px;
+}
+.numero{
+    font-weight: bold;
+    padding: 3px;
+    background-color: rgba(128, 128, 128, 0.292);
+    display: flex;
+    justify-content: space-between;
+    padding-left: 3px;
+}
+.detalle span  {
+    margin-top: 5px;
+    display:grid;
+    grid-column: 2;
+    justify-content:center;   
+}
+.total{
+    background-color: rgba(128, 128, 128, 0.292);
+    margin-top: 55px;
+    padding: 3px;
+    font-weight: bold;
+    display: flex;
+    border-top: solid 1px;
+    border-bottom: solid 1px;
+    justify-content: space-between;
+}
+.despedida{
+    text-align: center;
+    margin-top: 25px;
+    font-size: 18px;
+    font-weight: bold;
+}
