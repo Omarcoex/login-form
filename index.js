@@ -2,8 +2,8 @@ const boton = document.getElementById("ingresar");
 boton.addEventListener("click", (e) => {
   e.preventDefault();
 
-  const username= document.getElementById("username").value;
-  const password= document.getElementById("password").value;
+  const username = document.getElementById("username").value;
+  const password = document.getElementById("password").value;
 
   if (username == "" || password == "") alert("Usuario o contraseña vacio");
   if (username == "Omar123" && password == "1234") {

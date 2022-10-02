@@ -4,7 +4,6 @@
   box-sizing: border-box;
 }
 body {
-    
 }
 .contenedor {
   border: solid 1px;
@@ -14,7 +13,7 @@ body {
   margin-top: 25px;
   position: relative;
   border-radius: 5px;
-  box-shadow:-2px 8px 8px 8px rgba(0, 0, 0, 0.127);
+  box-shadow: -2px 8px 8px 8px rgba(0, 0, 0, 0.127);
 }
 .titular {
   /* border: solid 1px; */
@@ -44,37 +43,47 @@ figure {
 .contenido span {
   padding: 8px;
 }
-.orden{
-    /* border: solid 1px; */
-    margin-top: 35px;
+.orden {
+  /* border: solid 1px; */
+  margin-top: 35px;
 }
-.numero{
-    font-weight: bold;
-    padding: 3px;
-    background-color: rgba(128, 128, 128, 0.292);
-    display: flex;
-    justify-content: space-between;
-    padding-left: 3px;
+.numero {
+  font-weight: bold;
+  padding: 3px;
+  background-color: rgba(128, 128, 128, 0.292);
+  display: flex;
+  justify-content: space-between;
+  padding-left: 3px;
 }
-.detalle span  {
-    margin-top: 5px;
-    display:grid;
-    grid-column: 2;
-    justify-content:center;   
+.detalle span {
+  margin-top: 5px;
+  display: grid;
+  grid-column: 2;
+  /* justify-content:center;    */
 }
-.total{
-    background-color: rgba(128, 128, 128, 0.292);
-    margin-top: 55px;
-    padding: 3px;
-    font-weight: bold;
-    display: flex;
-    border-top: solid 1px;
-    border-bottom: solid 1px;
-    justify-content: space-between;
+.detalle p {
+  display: flex;
+  flex-direction: row-reverse;
+  overflow: hidden;
+  margin: -8px;
+  padding: 8px;
+  
+
+
 }
-.despedida{
-    text-align: center;
-    margin-top: 25px;
-    font-size: 18px;
-    font-weight: bold;
+.total {
+  background-color: rgba(128, 128, 128, 0.292);
+  margin-top: 55px;
+  padding: 3px;
+  font-weight: bold;
+  display: flex;
+  border-top: solid 1px;
+  border-bottom: solid 1px;
+  justify-content: space-between;
+}
+.despedida {
+  text-align: center;
+  margin-top: 25px;
+  font-size: 18px;
+  font-weight: bold;
 }
